@@ -569,3 +569,9 @@ PRODUCT_PACKAGES += \
     libnl \
     libqdMetaData \
     libwfdaac_vendor
+
+# External_Packages
+$(call inherit-product, vendor/packages/main.mk)
+
+# XiaomiParts
+$(call inherit-product, vendor/XiaomiParts/xiaomiparts.mk)
