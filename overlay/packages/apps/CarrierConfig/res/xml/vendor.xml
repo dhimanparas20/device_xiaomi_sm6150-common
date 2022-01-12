@@ -119,6 +119,9 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.-->
         <boolean name="support_adhoc_conference_calls_bool" value="true" />
         <boolean name="support_add_conference_participants_bool" value="true" />
     </carrier_config>
+    <carrier_config>
+        <boolean name="show_4g_for_lte_data_icon_bool" value="true"/>
+    </carrier_config>
 
     <carrier_config mcc="202" mnc="01">
         <boolean name="carrier_volte_available_bool" value="true" />
