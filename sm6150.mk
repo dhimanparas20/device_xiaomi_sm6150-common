@@ -180,6 +180,10 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     configs/CutoutRingServiceSweet
 
+# Device Settings
+PRODUCT_PACKAGES += \
+    configs/DeviceSettings
+
 # Display
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.4-impl \
