@@ -11,6 +11,8 @@ git clone --depth=1 https://github.com/mvaisakh/gcc-arm.git prebuilts/gcc/linux-
 git clone https://github.com/dhimanparas20/vendor_packages.git vendor/packages
 # sm6150-extras
 git clone https://github.com/PixelExperience-Devices/device_xiaomi_sm6150-extras.git device/xiaomi/sm6150-extras
+# Xiaomi's Hardware
+git clone https://github.com/LineageOS/android_hardware_xiaomi.git -b lineage-19.0 hardware/xiaomi
 # XiaomiParts
 git clone https://github.com/dhimanparas20/XiaomiParts.git vendor/XiaomiParts
 # Cache
