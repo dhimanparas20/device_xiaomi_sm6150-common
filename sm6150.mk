@@ -392,6 +392,10 @@ DEVICE_PACKAGE_OVERLAYS += \
 PRODUCT_ENFORCE_RRO_TARGETS += *
 PRODUCT_ENFORCE_RRO_EXCLUDED_OVERLAYS += $(LOCAL_PATH)/overlay/packages/apps/CarrierConfig
 
+# Parts
+PRODUCT_PACKAGES += \
+    XiaomiParts
+
 # Perf
 PRODUCT_PACKAGES += \
     libqti-perfd-client
@@ -587,9 +591,3 @@ PRODUCT_PACKAGES += \
     libnl \
     libqdMetaData \
     libwfdaac_vendor
-
-# External_Packages
-#$(call inherit-product, vendor/packages/main.mk)
-
-# XiaomiParts
-$(call inherit-product, vendor/XiaomiParts/xiaomiparts.mk)
