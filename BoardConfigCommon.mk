@@ -11,6 +11,9 @@ COMMON_PATH := device/xiaomi/sm6150-common
 # Inherit from proprietary files
 include vendor/xiaomi/sm6150-common/BoardConfigVendor.mk
 
+# ANXCamera
+include vendor/miuicamera/BoardConfigAnx.mk
+
 # A/B
 ifeq ($(TARGET_IS_VAB),true)
 AB_OTA_UPDATER := true
