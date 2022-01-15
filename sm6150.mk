@@ -178,11 +178,11 @@ PRODUCT_COPY_FILES += \
 
 # Cutout Ring
 PRODUCT_PACKAGES += \
-    configs/CutoutRingServiceSweet
+    CutoutRingServiceSweet
 
 # Device Settings
 PRODUCT_PACKAGES += \
-    configs/DeviceSettings
+    DeviceSettings
 
 # Display
 PRODUCT_PACKAGES += \
