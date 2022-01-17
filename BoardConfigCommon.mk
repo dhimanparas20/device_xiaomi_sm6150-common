@@ -12,7 +12,7 @@ COMMON_PATH := device/xiaomi/sm6150-common
 include vendor/xiaomi/sm6150-common/BoardConfigVendor.mk
 
 # ANXCamera
-include vendor/miuicamera/BoardConfigAnx.mk
+#include vendor/miuicamera/BoardConfigAnx.mk
 
 # A/B
 ifeq ($(TARGET_IS_VAB),true)
