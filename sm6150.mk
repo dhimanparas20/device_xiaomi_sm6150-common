@@ -498,3 +498,6 @@ PRODUCT_PACKAGES += \
     libnl \
     libqdMetaData \
     libwfdaac_vendor
+
+# ANXCamera
+$(call inherit-product, vendor/ANXCamera/anx-vendor.mk)

@@ -11,6 +11,9 @@ COMMON_PATH := device/xiaomi/sm6150-common
 # Inherit from proprietary files
 include vendor/xiaomi/sm6150-common/BoardConfigVendor.mk
 
+# Inherit from ANXCamera
+include vendor/ANXCamera/BoardConfigAnx.mk
+
 # APEX
 DEXPREOPT_GENERATE_APEX_IMAGE := true
 
