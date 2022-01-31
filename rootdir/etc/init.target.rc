@@ -223,4 +223,4 @@ service vendor.hwcomposer-2-4 /vendor/bin/hw/android.hardware.graphics.composer@
     socket pps stream 0660 system system
 
 # Dc Dimming
-/sys/devices/platform/soc/ae00000\.qcom,mdss_mdp/drm/card0/card0-DSI-1/disp_param u:object_r:sysfs_dm:s0
+#/sys/devices/platform/soc/ae00000\.qcom,mdss_mdp/drm/card0/card0-DSI-1/disp_param u:object_r:sysfs_dm:s0

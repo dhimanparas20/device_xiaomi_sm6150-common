@@ -146,7 +146,6 @@ PRODUCT_PACKAGES += \
 
 # Device Specific Settings
 PRODUCT_PACKAGES += \
-    XiaomiParts \
     DeviceSettings
 
 # Display
@@ -500,4 +499,4 @@ PRODUCT_PACKAGES += \
     libwfdaac_vendor
 
 # ANXCamera
-$(call inherit-product, vendor/ANXCamera/anx-vendor.mk)
+#$(call inherit-product, vendor/ANXCamera/anx-vendor.mk)
