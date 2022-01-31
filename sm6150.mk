@@ -176,14 +176,15 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.mapperextensions@1.1.vendor
 
 PRODUCT_PACKAGES += \
-    disable_configstore
+    disable_configstore \
+    libsdmcore-shim
 
 PRODUCT_COPY_FILES += \
-    frameworks/native/data/etc/android.hardware.opengles.aep.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.xml \
-    $(LOCAL_PATH)/configs/display/dsi_k6_38_0c_0a_fhd_dsc_video_display_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc \
-    $(LOCAL_PATH)/configs/display/qdcm_calib_data_xiaomi_k6_38_0c_0a_fhd_dsc_video_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc \
-    $(LOCAL_PATH)/configs/display/vendor_etc_hdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc \
-    $(LOCAL_PATH)/configs/display/vendor_etc_sdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc
+    frameworks/native/data/etc/android.hardware.opengles.aep.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.opengles.aep.xml
+#    $(LOCAL_PATH)/configs/display/dsi_k6_38_0c_0a_fhd_dsc_video_display_mi.xml:$(TARGET_COPY_OUT_VENDOR)/etc \
+#    $(LOCAL_PATH)/configs/display/qdcm_calib_data_xiaomi_k6_38_0c_0a_fhd_dsc_video_dsi_panel.xml:$(TARGET_COPY_OUT_VENDOR)/etc \
+#    $(LOCAL_PATH)/configs/display/vendor_etc_hdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc \
+#    $(LOCAL_PATH)/configs/display/vendor_etc_sdr_config.cfg:$(TARGET_COPY_OUT_VENDOR)/etc
 
 # DRM
 PRODUCT_PACKAGES += \
