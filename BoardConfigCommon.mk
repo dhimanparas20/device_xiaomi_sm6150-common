@@ -60,7 +60,7 @@ TARGET_USES_HWC2 := true
 TARGET_ENABLE_MEDIADRM_64 := true
 
 # Filesystem
-TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
+TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/configs/config.fs
 
 # FM
 BOARD_HAVE_QCOM_FM := true
@@ -178,11 +178,11 @@ BOARD_USES_QCOM_HARDWARE := true
 TARGET_POWERHAL_MODE_EXT := $(COMMON_PATH)/power/power-mode.cpp
 
 # Properties
-TARGET_ODM_PROP += $(COMMON_PATH)/odm.prop
-TARGET_SYSTEM_PROP += $(COMMON_PATH)/system.prop
-TARGET_VENDOR_PROP += $(COMMON_PATH)/vendor.prop
-TARGET_PRODUCT_PROP += $(COMMON_PATH)/product.prop
-TARGET_SYSTEM_EXT_PROP += $(COMMON_PATH)/system_ext.prop
+TARGET_ODM_PROP += $(COMMON_PATH)/properties/odm.prop
+TARGET_SYSTEM_PROP += $(COMMON_PATH)/properties/system.prop
+TARGET_VENDOR_PROP += $(COMMON_PATH)/properties/vendor.prop
+TARGET_PRODUCT_PROP += $(COMMON_PATH)/properties/product.prop
+TARGET_SYSTEM_EXT_PROP += $(COMMON_PATH)/properties/system_ext.prop
 
 # Recovery
 ifeq ($(PRODUCT_USE_DYNAMIC_PARTITIONS),true)
