@@ -1,0 +1,9 @@
+allow platform_app cgroup:file { read };
+allow platform_app vendor_file:file { read };
+allow platform_app vendor_audio_prop:file { read };
+allow platform_app cgroup:file { open };
+allow platform_app default_android_hwservice:hwservice_manager { find };
+allow platform_app default_android_service:service_manager { find };
+allow platform_app vendor_audio_prop:file { open };
+allow platform_app vendor_file:file { open };
+
